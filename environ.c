@@ -2,11 +2,11 @@
 
 /**
  * _myenv - prints the current environment
- * @info: Structure contains arguments.To maintain
- * constant function prototype.
+ * @info: Structure contains potent arguments. To maintain
+ * constant function prototype
+ *
  * Return: Always 0
  */
-
 int _myenv(info_t *info)
 {
 	print_list_str(info->env);
@@ -14,11 +14,11 @@ int _myenv(info_t *info)
 }
 
 /**
- * _getenv - get the value of an environ variable
- * @info: Structure contains potential arguments
+ * _getenv - gets the value of an environ variable
+ * @info: Structure contains potent arguments. To  maintain
  * @name: env var name
  *
- * Return: value
+ * Return: the value
  */
 
 char *_getenv(info_t *info, const char *name)
@@ -38,10 +38,11 @@ char *_getenv(info_t *info, const char *name)
 
 /**
  * _mysetenv - Initialize a new environ variable,
- * modify an existing one
- * @info: Structure contains arguments.To maintain
- * constant function prototype.
- *  Return: Always 0
+ *             or modify an existing one
+ * @info: Structure contains potent arguments. To maintain
+ * constant function prototype
+ *
+ * Return: Always 0
  */
 
 int _mysetenv(info_t *info)
@@ -57,12 +58,12 @@ int _mysetenv(info_t *info)
 }
 
 /**
- * _myunsetenv - Remove environ variable
- * @info: Structure contains  arguments.To maintain
+ * _myunsetenv - Remove an environment variable
+ * @info: Structure contains potent arguments. To maintain
  * constant function prototype.
- *  Return: Always 0
+ *
+ * Return: Always 0
  */
-
 int _myunsetenv(info_t *info)
 {
 	int i;
@@ -79,12 +80,12 @@ int _myunsetenv(info_t *info)
 }
 
 /**
- * populate_env_list - populate env linked list
- * @info: Structure contains arguments.To maintain
- * constant function prototype
+ * populate_env_list - populates env linked list
+ * @info: Structure contains potent arguments. To maintain
+ * constant function prototype.
+ *
  * Return: Always 0
  */
-
 int populate_env_list(info_t *info)
 {
 	list_t *node = NULL;
